@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-custom {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.textbold-custom {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600  ;
+}
+
+.textlight-custom {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.textlight-custom2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.text-orbitron {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+
+}
+
+.container-custom {
+    text-align: center;
+    position: relative;
+    color: black
+}
+
+.navbar-custom {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 100%, rgba(197,194,194,1) 100%, rgba(242,242,242,1) 100%);
+    
+  
+}
+
+
