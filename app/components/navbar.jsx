@@ -36,7 +36,7 @@ const Navbar = () => {
 
     
       <div className={`md:sticky textlight-custom2  text-sm top-0 flex flex-col lg:flex-row  items-center 
-           ${window.scrollY > 0 ?  " md:bg-white" : "" }  `} >
+           ${window?.scrollY > 0 ?  " md:bg-white" : "" }  `} >
         <img className=" rounded-md xl:ml-32  2xl:ml-48    md:rounded-sm  shadow-xs  md:h-16  md:w-72  h-[160px]" src="../logo.jpeg" alt="" />
 
         <ul className="text-md text-custom text-center  md:flex  lg:ml-24 xl:ml-48 2xl:ml-64  gap-x-12 mt-4 mb-2 text-slate-900 ">
