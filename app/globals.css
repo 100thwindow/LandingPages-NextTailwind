@@ -5,6 +5,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
 .text-custom {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -12,7 +18,12 @@
 
 .textbold-custom {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600  ;
+    font-weight: 500  ;
+}
+
+.textbold-custom2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700 ;
 }
 
 .textlight-custom {
@@ -34,14 +45,39 @@
 .container-custom {
     text-align: center;
     position: relative;
-    color: black
+    
 }
 
+
+
+
 .navbar-custom {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 100%, rgba(197,194,194,1) 100%, rgba(242,242,242,1) 100%);
-    
+    /* background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 100%, rgba(197,194,194,1) 100%, rgba(242,242,242,1) 100%); */
+    /* background: transparent; */
+     
   
 }
 
+body {
+    background-image: url(/skyscraperopac08.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    
+    
 
+}
+
+
+
+/* @media only screen and (max-width: 600px) {
+    body {
+        background-image: url(/skyscraper.jpg);
+        height: 100vh ;
+        background-repeat: no-repeat;
+        background-size: contain
+    }
+  } */
