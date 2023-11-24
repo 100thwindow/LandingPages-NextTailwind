@@ -1,2 +1,2 @@
-# sonproje
+landingstaticnextjs.netlify.app
  
