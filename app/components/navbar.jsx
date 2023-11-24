@@ -16,24 +16,24 @@ const Navbar = () => {
 
   }
   const path = usePathname()
-  const [scrolling, setScrolling] = useState(false);
+  // const [scrolling, setScrolling] = useState(false);
 
-  const handleScroll = () => {
-    if (window.scrollY > 0) {
-      setScrolling(true);
-    } else {
-      setScrolling(false);
-    }
+  // const handleScroll = () => {
+  //   if (window.scrollY > 0) {
+  //     setScrolling(true);
+  //   } else {
+  //     setScrolling(false);
+  //   }
   
-  };
+  // };
 
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    console.log(path)
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', handleScroll);
+  //   console.log(path)
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   return (
 
