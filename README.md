@@ -1,2 +1,2 @@
-landingstaticnextjs.netlify.app
+https://landingstaticnextjs.netlify.app
  
